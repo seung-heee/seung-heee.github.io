@@ -1,0 +1,27 @@
+@media (max-width: 767.98px) {
+  .profile div > h3 {
+    font-size: 20px !important; /* 우선순위 */
+    word-break: keep-all; /* 단어 단위로 */
+    text-align: center;
+  }
+
+  #likelion > div > p, h2 {
+    word-break: keep-all;
+  }
+
+  #likelion > div > p > br {
+    display: none;
+  }
+
+  #activity div > p {
+    word-break: keep-all;
+  }
+
+  #activity div > p > br {
+    display: none;
+  }
+  
+  .navbar-toggler {
+    background-color: white;
+  }
+}
